@@ -4,6 +4,8 @@ public class StaticInitSingleton {
 
     private static StaticInitSingleton object;
 
+    private StaticInitSingleton() {
+    }
 
     static {
         object = new StaticInitSingleton();

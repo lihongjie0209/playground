@@ -4,6 +4,9 @@ public class SingletonDoubleCheckLock {
 
     private static volatile  SingletonDoubleCheckLock object;
 
+    private SingletonDoubleCheckLock() {
+    }
+
     public static SingletonDoubleCheckLock getInstance() {
 
         if (object == null) {
