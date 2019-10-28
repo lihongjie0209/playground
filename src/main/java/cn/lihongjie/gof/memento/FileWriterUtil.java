@@ -1,5 +1,9 @@
 package cn.lihongjie.gof.memento;
 
+/**
+ *
+ * 记录快照， 便于后面回滚
+ */
 public class FileWriterUtil {
 
     private String fileName;
