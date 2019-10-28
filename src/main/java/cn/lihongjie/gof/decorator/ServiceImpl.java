@@ -1,5 +1,9 @@
 package cn.lihongjie.gof.decorator;
 
+/**
+ * 把一些辅助性的功能抽取出来到一个类中 （分）
+ * 这个类代理原有的类(合)
+ */
 public class ServiceImpl implements Service {
     private Service service;
 
